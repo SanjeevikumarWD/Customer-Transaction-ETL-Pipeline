@@ -10,29 +10,29 @@ This project implements an ETL pipeline to process customer transaction data, si
 
 
 
-### Data: Synthetic dataset of 1,000 transactions (columns: transaction_id, customer_id, amount, date, category).
+- Data: Synthetic dataset of 1,000 transactions (columns: transaction_id, customer_id, amount, date, category).
 
 
 
-### ETL Process:
+- ETL Process:
 
 
 
 
 
-### Extract: Reads CSV data using PySpark.
+- Extract: Reads CSV data using PySpark.
 
 
 
-### Transform: Cleans data (removes nulls, filters invalid amounts) and aggregates total spend by customer.
+- Transform: Cleans data (removes nulls, filters invalid amounts) and aggregates total spend by customer.
 
 
 
-### Load: Stores results in a PostgreSQL database.
+- Load: Stores results in a PostgreSQL database.
 
 
 
-### Orchestration: Airflow DAG automates data generation and ETL execution.
+- Orchestration: Airflow DAG automates data generation and ETL execution.
 
 
 
@@ -44,23 +44,23 @@ Environment: Dockerized PySpark setup for portability.
 
 
 
-### PySpark: Data processing and transformation.
+- PySpark: Data processing and transformation.
 
 
 
-### PostgreSQL: Data storage and querying.
+- PostgreSQL: Data storage and querying.
 
 
 
-### Apache Airflow: Workflow orchestration.
+- Apache Airflow: Workflow orchestration.
 
 
 
-### Docker: Containerized PySpark environment.
+- Docker: Containerized PySpark environment.
 
 ## Setup Instructions
 
-## Prerequisites:
+### Prerequisites:
 
 
 
